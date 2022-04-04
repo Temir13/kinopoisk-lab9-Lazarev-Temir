@@ -1,0 +1,197 @@
+*{
+    transition: all 0.2s;
+}
+
+.Header{
+    opacity: 0.9;
+    position: absolute;
+    padding: auto;
+    background-color: rgb(168, 10, 10);
+    width: 100%;
+    height: 50px;
+    top: 150px;
+}
+
+.ddMenu1{
+    position: absolute;
+    left: 20%;
+    background-color: wheat;
+    width: 190px;
+    height: 50px;
+}
+
+.ddMenu1:hover{
+    position: absolute;
+    left: 20%;
+    background-color: wheat;
+    width: 190px;
+    height: 60px;
+}
+
+.ddMenu2{
+    position: absolute;
+    left: 30%;
+    background-color: yellow;
+    width: 190px;
+    height: 50px;
+}
+
+.ddMenu2:hover{
+    position: absolute;
+    left: 30%;
+    background-color: wheat;
+    width: 190px;
+    height: 60px;
+}
+
+.ddMenu3{
+    position: absolute;
+    left: 40%;
+    background-color: greenyellow;
+    width: 191px;
+    height: 50px;
+}
+
+.ddMenu3:hover{
+    position: absolute;
+    left: 40%;
+    background-color: wheat;
+    width: 191px;
+    height: 60px;
+}
+
+.ddMenu4{
+    position: absolute;
+    left: 50%;
+    background-color: blue;
+    width: 190px;
+    height: 50px;
+}
+
+.ddMenu4:hover{
+    position: absolute;
+    left: 50%;
+    background-color: wheat;
+    width: 190px;
+    height: 60px;
+}
+
+.ddMenu5{
+    position: absolute;
+    left: 60%;
+    background-color: rgb(245, 0, 102);
+    width: 190px;
+    height: 50px;
+}
+
+.ddMenu5:hover{
+    position: absolute;
+    left: 60%;
+    background-color: wheat;;
+    width: 190px;
+    height: 60px;
+}
+
+.ddMenu6{
+    position: absolute;
+    left: 70%;
+    background-color: green;
+    width: 190px;
+    height: 50px;
+}
+
+.ddMenu6:hover{
+    position: absolute;
+    left: 70%;
+    background-color: wheat;
+    width: 190px;
+    height: 60px;
+}
+
+.logo{
+    position: absolute;
+    bottom: 73px;
+    left: 5%;
+    background-image: url('https://i.gifer.com/origin/a5/a59caa463e6cc95f42e907c87faf0dd8.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 170px;
+    height: 100px;
+    z-index: 1;
+}
+
+.headImg{
+    position: absolute;
+    bottom: 50px;
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    z-index: -1;
+    opacity: 0.3;
+}
+
+h3{
+    font-size: 45px;
+}
+
+.icon1{
+    position: absolute;
+    background: rgb(0, 217, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 300px;
+    top: -100px;
+
+}
+
+.icon2{
+    position: absolute;
+    background: rgb(194, 38, 38);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 250px;
+    top: -100px;
+    
+}
+
+.icon3{
+    position: absolute;
+    background: rgb(42, 92, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 200px;
+    top: -100px;    
+}
+.icon1:hover{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 300px;
+    top: -100px;
+}
+
+.icon2:hover{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 250px;
+    top: -100px; 
+}
+
+.icon3:hover{
+    position: absolute;
+    background: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    right: 200px;
+    top: -100px;
+    
+}

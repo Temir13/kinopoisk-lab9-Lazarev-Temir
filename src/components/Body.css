@@ -1,0 +1,138 @@
+body{
+    background-color: #222222;
+    background-image: url("https://images.alphacoders.com/914/thumb-1920-914152.png");
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+}
+
+.Body{
+    position: absolute;
+    background-color: wheat;
+    opacity: 0.95;
+    width: 760px;
+    height: 1500px;
+    top: 460px;
+    left: 30%;
+}
+
+.newsTools{
+    position: absolute;
+    background-color: rgb(255, 203, 107);
+    width: 760px;
+    height: 150px;
+    top: -175px;
+    
+}
+
+.newsBlockImg1{
+    width: 150px;
+    height: 110px;
+    background-image: url(https://img1.ak.crunchyroll.com/i/spire1/6d62ea5304283392aa88426274d94f051606554805_main.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    background-color: azure;
+    margin: 50px;
+
+}
+
+.newsBlockText1{
+    position: relative;
+    width: 450px;
+    height: 110px;
+    background-color: azure;
+  
+    right: -200px;
+    
+}
+
+.newsBlockImg2{
+    background-image: url(https://pbs.twimg.com/media/EWO9YhdXYAAO5i2.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 150px;
+    height: 110px;
+    background-color: azure;
+    margin: 50px;
+
+}
+
+.newsBlockText2{
+    position: relative;
+    width: 450px;
+    height: 110px;
+    background-color: azure;
+   
+    right: -200px;
+    
+}
+
+.newsBlockImg3{
+    background-image: url(https://i.imgur.com/QObHi1g.jpeg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 150px;
+    height: 110px;
+    background-color: azure;
+    margin: 50px;
+
+}
+
+.newsBlockText3{
+    position: relative;
+    width: 450px;
+    height: 110px;
+    background-color: azure;
+  
+    right: -200px;
+    
+}
+
+.newsBlockImg4{
+    background-image: url(https://i.artfile.ru/1920x1200_524877_[www.ArtFile.ru].jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 150px;
+    height: 110px;
+    background-color: azure;
+    margin: 50px;
+
+}
+
+.newsBlockText4{
+    position: relative;
+    width: 450px;
+    height: 110px;
+    background-color: azure;
+    
+    right: -200px;
+}
+
+.newsBlockImg5{
+    background-image: url(https://www.wallpaperflare.com/static/379/716/971/girls-event-watermelon-kimono-wallpaper.jpg);
+    background-size: 130%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 150px;
+    height: 110px;
+    background-color: azure;
+    margin: 50px;
+
+}
+
+.newsBlockText5{
+    position: relative;
+    width: 450px;
+    height: 110px;
+    background-color: azure;
+    
+    right: -200px;
+}
+
