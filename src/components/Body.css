@@ -1,45 +1,33 @@
 body{
-    background-color: #222222;
-    background-image: url("https://images.alphacoders.com/914/thumb-1920-914152.png");
-    background-repeat: no-repeat;
+    background-color: #e7e4e1;
+    /*background-image: url("https://images.alphacoders.com/914/thumb-1920-914152.png");
+    */background-repeat: no-repeat;
     background-attachment:fixed;
+
 }
 
-.Body{
-    position: absolute;
-    background-color: wheat;
-    opacity: 0.95;
-    width: 65%;
-    height: 1500px;
-    top: 0px;
+.body{
+    position: relative;
+    background-color: blue;
+    transform: translate(-50%, 0);
+    width: 1280px;
+    height: 1920px;
     left: 50%;
-    transform: translate(-50%, 0%)
+
+    z-index: -1;
+    opacity: 0.2;
+
 }
 
-.newsBlockImg1{
-    position: absolute;
-    width: 850px;
-    height: 400px;
-    background-image: url(https://img1.ak.crunchyroll.com/i/spire1/6d62ea5304283392aa88426274d94f051606554805_main.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
+.container{
+    position: relative;
+    background-color: bisque;
+    transform: translate(-50%, 0);
+
+    width: 900px;
+    height: 95%;
+    top: 1%;
+    left: 60%;
     
-    background-color: azure;
-    margin: 50px;
-
-    top: 5%;
-    left: 25%;
 
 }
-
-.containerB{
-    position: absolute;
-    width: 850px;
-    height: 400px;
-    background-color: blueviolet;
-    top: 6.3%;
-    
-}
-
-
