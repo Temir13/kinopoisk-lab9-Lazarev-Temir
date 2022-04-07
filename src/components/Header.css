@@ -1,3 +1,7 @@
+*{
+    text-decoration: none;
+}
+
 .header{
     position: sticky;
     top: 0;
@@ -13,9 +17,10 @@
     width: 1196px;
     height: 65px;
     background-color: #1f1f1f;
+    top: 0%;
     
     left: 50%;
-    transform: translate(-50%, -30%); 
+    transform: translate(-50%, 0%); 
 }
 
 .headerLogo{
@@ -26,6 +31,10 @@
     
     transform: translate(10%, 42%); 
     cursor: pointer;
+}
+
+.headerLogoA{
+
 }
 
 .mainHeaderContainer{
@@ -73,6 +82,7 @@
     font-size: 15px;
     font-weight: 500;
     line-height: 18px;
+    
 }
 
 .headerOnlineA:hover{
@@ -189,7 +199,8 @@
     position: absolute;
 
     background-image: url('https://www.iguides.ru/upload/iblock/64c/64c27904d1aced823f5f128b505444f8.jpg');
-       background-size: cover;
+    background-size: cover;
+    background-position: center;
 
     width: 100px;
     height: 42px;
@@ -199,4 +210,13 @@
     cursor: pointer;
 
     border-radius: 5px;
+}
+
+.headerButtonYandex:hover{
+    width: 105px;
+    height: 45px;
+
+    top: 13px;
+    left: 3px;
+
 }
