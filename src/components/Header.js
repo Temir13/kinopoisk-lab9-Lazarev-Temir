@@ -8,13 +8,30 @@ const Header = () =>{
                 <div className='headerLogo'></div>  
                     <div className='mainHeaderContainer'> 
 
-                        <div className='headerButtonContainer'>ButtonContainer
-                            <div className='headerButtonOnlineCinema'>ButtonOnlineCinema</div>
-                                <div className='headerButtonSetupTV'>Setupbutton</div>
+                        <div className='headerButtonContainer'>
+                            <div className='headerButtonOnlineCinema'>
+                                <a className='headerOnlineA'>Онлайн-кинотеатр</a>
                                     </div>
 
-                    <div className='headerSearch'>Search</div>
-                    <div className='headerSignUp'>SignUp</div>
+                            <div className='headerButtonSetupTV'>
+                                <a className='headerSetupA'>Установить на ТВ</a>
+                                    </div>
+
+                    </div>
+
+
+                    <div className='headerSearch'>
+                        <div className='headerSearchContainer'>
+                            <input className='headerSerchInput' placeholder='God knows...'></input>
+                                </div>
+                                    </div>
+                    <div className='headerSignUp'>
+                        <div className='headerButtonSignUp'>
+                            <a className='headerSignUpA' >Войти</a>
+                        </div>
+
+                        <div className='headerButtonYandex'></div>
+                    </div>
 
                                         </div>
 
