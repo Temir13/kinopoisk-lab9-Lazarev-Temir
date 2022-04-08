@@ -111,19 +111,6 @@ body{
     color: rgb(0, 0, 0);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bodyContainer{
     position: relative;
     background-color: rgb(245, 245, 245);
@@ -138,12 +125,198 @@ body{
 .bodyMainContent{
     position: relative;
     background-color: antiquewhite;
+
     width: 938px;
     height: 400px;
 
     top: 10px;
     left: 10px;
 }
+
+.mainContentGif{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    background-image: url('https://c.tenor.com/BsRbDr5P_PMAAAAC/haruhi-suzumiya-kyon-computer-haruhi-suzumiya.gif');
+    background-position: center;
+    background-size: cover;
+    box-shadow: inset 180px 0 100px rgb(0, 0, 0);
+    width: 60%;
+    height: 100%;
+    right: 0px;
+    cursor: pointer;
+}
+
+.mainContentContainer{
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    height: 100%;
+    box-shadow: 40px 0 0 rgb(0, 0, 0);
+}
+
+.mainContentDescriptionBlock{
+    position: absolute;
+    width: 485px;
+    height: 390px;
+    transform: translate(0, -50%);
+    left: 5%;
+    top: 50%;
+}
+
+.mainContentFilmName{
+    position: absolute;
+    background-image: url('https://occ-0-2794-2219.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABX1xSg4m0pFWcIFxMkw1aFrRATVIvi-hOlpJMNVxR-Xd3GPb7fFIn6VxOShegvkTARvLrWjMxaE6s69oXzvSdD4MCtqX3zZnZ0Yd.png?r=66d');
+    background-size: 70%;
+    background-position: 5px;
+    background-repeat: no-repeat;
+    width: 285px;
+    height: 85px;
+    margin: 15px;
+}
+
+.mainContentDescription{
+    position: absolute;
+    width: 490px;
+    height: 120px;
+    margin: 15px;
+    top: 100px;
+}
+
+.mainContentDescriptionText{
+    position: absolute;
+    margin: 5px;
+    font-size: 14px;
+    line-height: 1.43;
+    color: #fff;
+    font-family: Graphik Kinopoisk LC Web,Arial,Tahoma,Verdana,sans-serif;
+}
+
+.mainContentActorListText{
+    position: absolute;
+    margin: 5px;
+    top: 55px;
+
+    font-size: 12px;
+    line-height: 1.33;
+    opacity: 0.5;
+    color: #fff;
+}
+
+.mainContentActorsNamesText{
+    position: absolute;
+    margin: 5px;
+    top: 68px;
+
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fff;
+}
+
+.mainContentDirectorText{
+    position: absolute;
+    margin: 5px;
+    top: 97px;
+
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fff;
+    opacity: 0.5;
+}
+
+.mainContentDirectorNameText{
+    position: absolute;
+    margin: 5px;
+    top: 97px;
+    left: 70px;
+
+    font-size: 12px;
+    line-height: 1.33;
+    color: #fff;
+}
+
+
+.mainContentLinkText{
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    margin: 15px;
+    bottom: 25px;
+
+    padding: 5px;
+    font-size: 18px;
+    line-height: 1.73;
+    color: #fff;
+
+    font-weight: 600;
+    font-style: normal;
+    font-family: Graphik Kinopoisk LC Web,Arial,Tahoma,Verdana,sans-serif;  
+    color: rgba(255, 255, 255, 0.938); 
+}
+
+.mainContentLickContainer{
+    position: absolute;
+    width: 285px;
+    height: 60px;
+    bottom: 55px;
+    left: 10px;
+}
+
+.mainContentLinkButtonKinopoinsk{
+    position: absolute;
+    width: 110px;
+    height: 32px;
+    background-color: rgba(235, 98, 8, 0.712);
+    margin: 10px;
+
+    font-size: 10px;
+    line-height: 1.73;
+    color: #fff;
+    text-align: center;
+
+    padding: 5px;
+
+    font-weight: 600;
+    font-style: normal;
+    font-family: Graphik Kinopoisk LC Web,Arial,Tahoma,Verdana,sans-serif;  
+    color: rgb(10, 10, 10); 
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainContentLinkButtonKinopoinsk:hover{
+    color: rgb(255, 255, 255); 
+}
+
+.mainContentLinkButtonJitsu{
+    position: absolute;
+    width: 100px;
+    height: 22px;
+    background-color: rgba(48, 151, 0, 0.829);
+    margin: 10px;
+
+    font-size: 11px;
+    line-height: 1.73;
+    color: #fff;
+
+    padding: 10px;
+    right: 0px;
+
+    font-weight: 600;
+    font-style: normal;
+    font-family: Graphik Kinopoisk LC Web,Arial,Tahoma,Verdana,sans-serif;  
+    color: rgb(219, 219, 219); 
+
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.mainContentLinkButtonJitsu:hover{
+    color: rgb(255, 255, 255); 
+}
+
+
+
 
 .bodyContentList{
     position: relative;

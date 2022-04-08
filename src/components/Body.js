@@ -37,7 +37,30 @@ const Body = () =>{
 
                 <div className='bodyContainer'>
                 <div className='bodyMainContent'>
-                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/G6NaVH-_wPM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a className='mainContentGif'></a>
+                <div className='mainContentContainer'>
+                    <div className='mainContentDescriptionBlock'>      
+                        <a className='mainContentFilmName'></a>
+                        <a className='mainContentDescription'>
+                            <label className='mainContentDescriptionText'>Произведение по одноименной ранобэ, фильм производства студии «Kyoto Animation».  </label>
+                            <label className='mainContentActorListText'>В главных ролях:</label>
+                            <label className='mainContentActorsNamesText'>Харухи Судзумия, Джон Смит, Ицки Коидзуми, Микуру Асахина, Юки Нагато</label>
+                            <label className='mainContentDirectorText'>Режисcеры:</label>
+                            <label className='mainContentDirectorNameText'>  Ясухиро Такэмото, Тацуя Исихара</label>
+                        </a>
+                        <div className='mainContentLinkText'>Смотреть по ссылкам</div>
+                        <div className='mainContentLickContainer'>
+                            <a href='https://www.kinopoisk.ru/film/492569/' className='mainContentLinkButtonKinopoinsk'>Смотреть на Kinopoisk</a>
+                            <a href='https://jut.su/suzumiya-haruhi/film-1.html' className='mainContentLinkButtonJitsu'>Смотреть на Jitus</a>
+                        </div>
+                        
+
+
+                    </div>
+
+                    
+               
+                </div>
                
                 </div>
                 <div className='bodyContentList'>
