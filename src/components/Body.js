@@ -51,18 +51,15 @@ const Body = () =>{
                         <div className='mainContentLinkText'>Смотреть по ссылкам</div>
                         <div className='mainContentLickContainer'>
                             <a href='https://www.kinopoisk.ru/film/492569/' className='mainContentLinkButtonKinopoinsk'>Смотреть на Kinopoisk</a>
-                            <a href='https://jut.su/suzumiya-haruhi/film-1.html' className='mainContentLinkButtonJitsu'>Смотреть на Jitus</a>
+                            <a href='https://jut.su/suzumiya-haruhi/film-1.html' className='mainContentLinkButtonJitsu'>Смотреть на Jitsu</a>
                         </div>
-                        
-
 
                     </div>
 
-                    
-               
                 </div>
                
-                </div>
+            </div>
+            
                 <div className='bodyContentList'>
                     <div className='bodyContentListName'>
                         <a className='bodyContentListA'>Билеты в кино</a>
