@@ -33,10 +33,6 @@
     cursor: pointer;
 }
 
-.headerLogoA{
-
-}
-
 .mainHeaderContainer{
     position: absolute;
     background-color: #1f1f1f;
@@ -116,9 +112,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     font-weight: 500;
-    line-height: 18px;
-
-    
+    line-height: 18px;  
 }
 
 
@@ -210,6 +204,7 @@
     cursor: pointer;
 
     border-radius: 5px;
+    transition: 0s;
 }
 
 .headerButtonYandex:hover{
