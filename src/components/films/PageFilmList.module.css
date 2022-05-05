@@ -1,0 +1,59 @@
+
+.Container{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    transform: translate(-50%, 0);
+    width: 1000px;
+    height: 1920px;
+    left:58%;
+}
+
+.body{
+    display: flex;
+    position: relative;   
+    width: 100%;
+    height: 100%;
+}
+
+.ContentList{
+    position: relative;
+    width: 938px;
+    height: 350px;
+
+    top: 35px;
+    left: 25px;
+
+    border-radius: 10px;
+}
+
+.ContentListName{
+    left: 15px;
+    position: relative;
+    width: 185px;
+    height: 30px;
+    padding: 5px;
+}
+
+.ContentListA{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 18px;
+    cursor: pointer;
+    color: rgba(0, 0, 0);
+    border: none;
+    outline: none;
+
+}
+
+.listContainer{
+    display: flex;
+    position: relative;
+    padding: 25px;
+    width: 890px;
+    height: 285px;
+
+    top: 5px;
+    left: -5px;
+
+}
+
